@@ -17,7 +17,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoWhatsapp } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -37,15 +37,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hola, soy un developer autodidacta.
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Jefferson Alvarez
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Web developer ( Mobile developer / Web developer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -76,29 +76,17 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          Trabajos
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Inkdrop</Link>
-          </NextLink>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <NextLink href="https://www.youtube.com/devaslife" passHref>
-            <Link target="_blank">Dev as Life</Link>
-          </NextLink>
-          &quot; has more than 100k subscribers.
+          Jefferson es un freelancer and full-stack developer con pasión por
+          construir servicios digitales y cosas que usted quiera. Busca la
+          manera de resolver problemas de la vida real con codigo.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              Mi Portafolio
             </Button>
           </NextLink>
         </Box>
@@ -109,25 +97,23 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>1996</BioYear>
+          Nacido en Yantzaza, Ecuador.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2012</BioYear>
+          Complete mi tecnologia en Analisis de Sistemas
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2016</BioYear>
+          Trabaje creando mi propia empresa con 2 amigos mas
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+          <BioYear>2021 al presente</BioYear>
+          Trabajo de manera freelancer
         </BioSection>
       </Section>
-
+{/* 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
@@ -143,25 +129,25 @@ const Home = () => (
           </Link>
           , Leica, Machine Learning
         </Paragraph>
-      </Section>
+      </Section> */}
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+          En la web
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/JeffersonAlvarez16" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @JeffersonAlvarez16
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
+        {/*   <ListItem>
             <Link href="https://twitter.com/inkdrop_app" target="_blank">
               <Button
                 variant="ghost"
@@ -171,20 +157,31 @@ const Home = () => (
                 @inkdrop_app (English)
               </Button>
             </Link>
-          </ListItem>
+          </ListItem> */}
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="https://twitter.com/JefferAlvarz" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @craftzdog (日本語)
+                @JefferAlvarz 
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://wa.me/593985874084/?text=" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoWhatsapp />}
+              >
+                Escribeme tu idea!
+              </Button>
+            </Link>
+          </ListItem>
+        {/*   <ListItem>
+            <Link href="https://instagram.com/JefferAlvarz" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -193,10 +190,10 @@ const Home = () => (
                 @craftzdog
               </Button>
             </Link>
-          </ListItem>
+          </ListItem> */}
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+      {/*   <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://www.youtube.com/devaslife"
             title="Dev as Life"
@@ -219,7 +216,7 @@ const Home = () => (
               Popular posts
             </Button>
           </NextLink>
-        </Box>
+        </Box> */}
       </Section>
     </Container>
   </Layout>

@@ -17,15 +17,20 @@ import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 const Works = () => (
   <Layout title="Works">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
-        Works
+      <Heading as="h3" fontSize={20} mb={8}>
+        Trabajos
+        
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
+      En construcción
+      <br/>
+      <br/>
+      <br/>
+        {/* <Section>
+          
           <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          En construcción
           </WorkGridItem>
         </Section>
         <Section>
@@ -53,18 +58,18 @@ const Works = () => (
             An app that suggests ramen(noodle) shops based on a given photo of
             the ramen you want to eat
           </WorkGridItem>
-        </Section>
+        </Section> */}
       </SimpleGrid>
 
-      <Section delay={0.2}>
+    {/*   <Section delay={0.2}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
           Collaborations
         </Heading>
-      </Section>
+      </Section> */}
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+     {/*  <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
             A website of the elite app development and contracting agency based
@@ -86,15 +91,15 @@ const Works = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
-
-      <Section delay={0.4}>
+ */}
+      {/* <Section delay={0.4}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
           Old works
         </Heading>
-      </Section>
-
+      </Section> */}
+{/* 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
           <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
@@ -116,7 +121,7 @@ const Works = () => (
             Windows
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
+      </SimpleGrid> */}
     </Container>
   </Layout>
 )
