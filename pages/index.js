@@ -21,6 +21,7 @@ import { IoLogoTwitter, IoLogoGithub, IoLogoWhatsapp } from 'react-icons/io5'
 
 
 import Image from 'next/image'
+import { WorkImage } from '../components/work'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -137,7 +138,7 @@ const Home = () => (
           Si me apoyas con este valor al cabo de 3 meses te devolvere $3.
           
         
-            <ProfileImage
+            <WorkImage
               src="/images/BinancePayQR.png"
               alt="Binance Pay"              
              
