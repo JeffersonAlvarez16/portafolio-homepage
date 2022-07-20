@@ -135,29 +135,14 @@ const Home = () => (
         <BioSection>
           <BioYear>$1</BioYear>
           Si me apoyas con este valor al cabo de 3 meses te devolvere $3.
-          <Box
-        
           
-     
-          textAlign="center"
-        >
-          <Box
-            borderColor="whiteAlpha.800"
-            borderWidth={2}
-            borderStyle="solid"
-           
-           
-              
-            overflow="hidden"
-          >
+        
             <ProfileImage
               src="/images/BinancePayQR.png"
-              alt="Profile image"              
-              width="100%"
-              height="100%"
+              alt="Binance Pay"              
+             
             />
-          </Box>
-        </Box>
+         
         </BioSection>
       </Section>
 
