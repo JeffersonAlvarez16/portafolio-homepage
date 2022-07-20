@@ -270,7 +270,7 @@ const Home = () => (
                 colorScheme="teal"
                 
               >
-               Permatree SuperFood's
+               Permatree SuperFoods
               </Button>
             </Link>
           </ListItem>
