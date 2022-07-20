@@ -136,18 +136,18 @@ const Home = () => (
           <BioYear>$1</BioYear>
           Si me apoyas con este valor al cabo de 3 meses te devolvere $3.
           <Box
-          flexShrink={0}
-          mt={{ base: 4, md: 0 }}
-          ml={{ md: 6 }}
+        
+          
+     
           textAlign="center"
         >
           <Box
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
-            w="100px"
-            h="100px"
-            display="inline-block"           
+           
+           
+              
             overflow="hidden"
           >
             <ProfileImage
