@@ -158,6 +158,50 @@ const Home = () => (
         </Paragraph>
       </Section> */}
 
+<Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Sitios realizados
+        </Heading>
+        <List>
+          <ListItem>
+            <Link href="https://conagoparezamorach.gob.ec/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                
+              >
+                Conagopare Zamora Chinchipe
+              </Button>
+            </Link>
+          </ListItem>
+         
+          <ListItem>
+            <Link href="https://gadparroquialzurmi.gob.ec/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+               
+              >
+                Gad Parroquial Zurmi
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://wa.me/593985874084/?text=" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoWhatsapp />}
+              >
+                Escribeme tu idea!
+              </Button>
+            </Link>
+          </ListItem>
+        
+        </List>
+
+      </Section>
+
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           En la web
