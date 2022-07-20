@@ -113,7 +113,34 @@ const Home = () => (
           Trabajo de manera freelancer
         </BioSection>
       </Section>
-{/* 
+
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Servicios
+        </Heading>
+        <BioSection>
+          <BioYear>$5 mensual</BioYear>
+          Mantenimiento preventivo y correctivo de tu computador e instalacion de programas.
+          3 horas de soporte al mes.
+        </BioSection>
+        <BioSection>
+          <BioYear>$5 mensual</BioYear>
+          Asesoria en programacion, React, Node, Django, Firebase, Flutter, Svelte, Java, Heroku.
+          3 horas de soporte al mes.
+        </BioSection>
+        <BioSection>
+          <BioYear>$</BioYear>
+          Creación de páginas web.
+        </BioSection>
+        <BioSection>
+          <BioYear>$1</BioYear>
+          Si me apoyas con este valor al cabo de 3 meses te devolvere $3.
+          
+        </BioSection>
+      </Section>
+
+
+      {/* 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
@@ -147,7 +174,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-        {/*   <ListItem>
+          {/*   <ListItem>
             <Link href="https://twitter.com/inkdrop_app" target="_blank">
               <Button
                 variant="ghost"
@@ -165,7 +192,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @JefferAlvarz 
+                @JefferAlvarz
               </Button>
             </Link>
           </ListItem>
@@ -180,7 +207,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-        {/*   <ListItem>
+          {/*   <ListItem>
             <Link href="https://instagram.com/JefferAlvarz" target="_blank">
               <Button
                 variant="ghost"
@@ -193,7 +220,7 @@ const Home = () => (
           </ListItem> */}
         </List>
 
-      {/*   <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        {/*   <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://www.youtube.com/devaslife"
             title="Dev as Life"
