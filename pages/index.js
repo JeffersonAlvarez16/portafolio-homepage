@@ -135,7 +135,29 @@ const Home = () => (
         <BioSection>
           <BioYear>$1</BioYear>
           Si me apoyas con este valor al cabo de 3 meses te devolvere $3.
-          
+          <Box
+          flexShrink={0}
+          mt={{ base: 4, md: 0 }}
+          ml={{ md: 6 }}
+          textAlign="center"
+        >
+          <Box
+            borderColor="whiteAlpha.800"
+            borderWidth={2}
+            borderStyle="solid"
+            w="100px"
+            h="100px"
+            display="inline-block"           
+            overflow="hidden"
+          >
+            <ProfileImage
+              src="/images/BinancePayQR.png"
+              alt="Profile image"              
+              width="100%"
+              height="100%"
+            />
+          </Box>
+        </Box>
         </BioSection>
       </Section>
 
@@ -187,17 +209,71 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://wa.me/593985874084/?text=" target="_blank">
+            <Link href="https://gadcentineladelcondor.gob.ec/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoWhatsapp />}
+                
               >
-                Escribeme tu idea!
+               Gad Centinela de Condor
               </Button>
             </Link>
           </ListItem>
-        
+          <ListItem>
+            <Link href="https://www.gadparroquialguadalupe.gob.ec/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                
+              >
+               Gad Parroquial Guadalupe
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://gadparroquialbellavista.gob.ec/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                
+              >
+               Gad Parroquial Bellavista
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://gadlosencuentros.gob.ec/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                
+              >
+               Gad Parroquial Los Encuentros
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://andesacademy.org/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                
+              >
+               Andes Academy
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://permatree.wordpress.com/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                
+              >
+               Permatree SuperFood's
+              </Button>
+            </Link>
+          </ListItem>
         </List>
 
       </Section>
